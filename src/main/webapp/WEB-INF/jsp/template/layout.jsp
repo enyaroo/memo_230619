@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>게시판</title>
+<title>Memo 게시판</title>
 
 <!-- 부트스트랩 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -21,7 +21,7 @@
 			<jsp:include page="" />
 		</header>
 		<section class="contents">
-			<jsp:include page="/${viewName}.jsp" />
+			<jsp:include page="../${viewName}.jsp" />
 		</section>
 		<footer class="bg-warning">
 			<jsp:include page="" />

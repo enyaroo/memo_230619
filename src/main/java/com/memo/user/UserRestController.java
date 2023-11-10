@@ -23,10 +23,15 @@ public class UserRestController {
 	@Autowired
 	private UserBO userBO;
 	
-//	@RequestMapping("/is-duplicated-id")
-//	public Map<String, Object> isDuplicatedId() {
-//		return result;
-//	}
+	// 로그인 아이디 중복 확인 API
+	@RequestMapping("/is-duplicated-id")
+	public Map<String, Object> isDuplicatedId(
+			@RequestParam("loginId") String loginId) {
+		
+		// db
+		
+		return result;
+	}
 	
 //	@PostMapping("/sign-up")
 //	public Map<String, Object> signUp() {

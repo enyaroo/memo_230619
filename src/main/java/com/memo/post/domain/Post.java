@@ -15,5 +15,4 @@ public class Post {
 	private String content;
 	private ZonedDateTime createdAt;
 	private ZonedDateTime updatedAt;
-	
 }
